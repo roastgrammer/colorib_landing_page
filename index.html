@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>COLORIB</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @media screen and (min-width:200px) and (max-width:364px){
+            * {
+                transition: all 0.3s linear;
+            }
+            nav .logo h1{
+                padding-left: 1rem;
+            }
+            nav .menu ul {
+                display: none;
+            }
+            .test {
+                float: right;
+                width: 30px;
+                height: 30px;
+                background: white;
+                border-radius: 10px;
+                margin-top: 2rem;
+            }
+            /* .test:hover {
+                padding-left: 1.3rem;
+                width: 50px;
+                height: 180px;
+                background: orange;
+                transition: height 0.3s linear;
+            } */
+            .first {
+                width: 20px;
+                height: 2px;
+                background: black;
+                margin-left: 0.3rem;
+                margin-top: 0.6rem;
+            }
+            .two {
+                width: 20px;
+                height: 2px;
+                background: black;
+                margin-left: 0.3rem;
+                margin-top: 0.4rem;
+            }
+            .descriptions {
+                /* float: left; */
+                width: 50%;
+                /* border:1px solid black; */
+                margin-left: 4rem;
+                margin-top: 1rem;
+            }
+            .descriptions button {
+                /* font-size: 1em;  */
+                width: 7.6rem;
+                padding-right: 18px;
+            }
+            .form {
+                float: left;
+                /* margin-left: 1rem; */
+                margin-top: 1.3rem;
+                width:70%;
+                margin-left: 2.5rem;
+            }
+            .form h1 {
+                font-size: 1.3em;
+                
+            }
+            .form input {
+                margin-left: 1rem;
+            }
+            .form button {
+                width: 5rem;
+                margin-left: 3.5rem;
+            }
+        }
+        @media(min-width:365px) and (max-width:521px) {
+            * {
+                transition: all 0.3s linear;
+            }
+            nav .logo h1{
+                padding-left: 1rem;
+            }
+            nav .menu ul {
+                display: none;
+            }
+            .test {
+                float: right;
+                width: 30px;
+                height: 30px;
+                background: white;
+                border-radius: 10px;
+                margin-top: 2rem;
+            }
+            /* .test:hover {
+                padding-left: 1.3rem;
+                width: 50px;
+                height: 180px;
+                background: orange;
+                transition: height 0.3s linear;
+            } */
+            .first {
+                width: 20px;
+                height: 2px;
+                background: black;
+                margin-left: 0.3rem;
+                margin-top: 0.6rem;
+            }
+            .two {
+                width: 20px;
+                height: 2px;
+                background: black;
+                margin-left: 0.3rem;
+                margin-top: 0.4rem;
+            }
+            .descriptions {
+                /* float: left; */
+                width: 50%;
+                /* border:1px solid black; */
+                margin-left: 7rem;
+                margin-top: 1rem;
+            }
+            .form {
+                float: left;
+                width:15rem;
+                height: 20rem;
+                margin-left: 6rem;
+                margin-top: 1.3rem;
+            }
+            .form h1 {
+                font-size: 1rem;
+            }
+            .form button {
+                width: 5rem;
+                margin-left: 4.5rem;
+                margin-top: 2rem;
+            }            
+        }
+        @media(min-width: 522px) and (max-width:965px){
+            * {
+                transition: all 0.3s linear;
+            }
+            nav .logo h1{
+                padding-left: 1rem;
+            }
+            nav .menu ul {
+                display: none;
+            }
+            .test {
+                float: right;
+                width: 30px;
+                height: 30px;
+                background: white;
+                border-radius: 10px;
+                margin-top: 2rem;
+            }
+            /* .test:hover {
+                padding-left: 1.3rem;
+                width: 50px;
+                height: 180px;
+                background: orange;
+                transition: height 0.3s linear;
+            } */
+            .first {
+                width: 20px;
+                height: 2px;
+                background: black;
+                margin-left: 0.3rem;
+                margin-top: 0.6rem;
+            }
+            .two {
+                width: 20px;
+                height: 2px;
+                background: black;
+                margin-left: 0.3rem;
+                margin-top: 0.4rem;
+            }
+            .descriptions {
+                /* float: left; */
+                width: 50%;
+                /* border:1px solid black; */
+                margin-left: 10rem;
+                margin-top: 1rem;
+            }
+            .form {
+                float: left;
+                width:18rem;
+                height: 22rem;
+                /* margin-right: auto; */
+                margin-left: 7.5rem;
+                margin-top: 1.3rem;
+            }
+            .form h1 {
+                font-size: 2rem;
+            }
+            .form button {
+                width: 5rem;
+                margin-left: 6.5rem;
+                margin-top: 2rem;
+            }
+        }
+        @media (min-width:966px) and (max-width:1017px){
+            * {
+                transition: all 0.3s linear;
+            }
+            nav .logo h1{
+                padding-left: 1rem;
+            }
+            nav .menu ul {
+                display: none;
+            }
+            .test {
+                float: right;
+                width: 30px;
+                height: 30px;
+                background: white;
+                border-radius: 10px;
+                margin-top: 2rem;
+            }
+            /* .test:hover {
+                padding-left: 1.3rem;
+                width: 50px;
+                height: 180px;
+                background: orange;
+                transition: height 0.3s linear;
+            } */
+            .first {
+                width: 20px;
+                height: 2px;
+                background: black;
+                margin-left: 0.3rem;
+                margin-top: 0.6rem;
+            }
+            .two {
+                width: 20px;
+                height: 2px;
+                background: black;
+                margin-left: 0.3rem;
+                margin-top: 0.4rem;
+            }
+            .descriptions {
+                /* float: left; */
+                width: 50%;
+                /* border:1px solid black; */
+                margin-left: 7rem;
+                margin-top: 1rem;
+            }
+            .form {
+                float: left;
+                width:50rem;
+                height: 23rem;
+                /* margin-right: auto; */
+                margin-left: 7rem;
+                margin-top: 1.3rem;
+            }
+            .form h1 {
+                font-size: 2rem;
+            }
+            .form button {
+                width: 5rem;
+                margin-left: 2rem;
+                margin-top: 2rem;
+            }
+            .form input {
+                width: 90%;;
+            }
+            .form select {
+                margin-left: 2rem;
+            }
+        }
+        @media (min-width:1018px) and (max-width:1400px){
+            * {
+                transition: all 0.3s linear;
+            }
+            nav .logo h1{
+                padding-left: 1rem;
+            }
+            
+            .descriptions {
+                float: left;
+                width: 40%;
+                /* border:1px solid black; */
+                margin-left: 5rem;
+                margin-top: 1rem;
+            }
+            .form {
+                /* float: right; */
+                width:20rem;
+                height: 23rem;
+                margin-right: 5rem;
+                /* margin-left: 1rem; */
+                margin-top: 0.2rem;
+            }
+            .form h1 {
+                font-size: 2rem;
+            }
+            .form button {
+                width: 5rem;
+                margin-left: 7.5rem;
+                margin-top: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1><a href="#">Landing</a></h1>
+            </div>
+            <div class="menu">
+                <div class="test">
+                    <div class="first"></div>
+                    <div class="two"></div>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Reviews</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="descriptions">
+            <h1>
+                fly makes you<br> faster
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptatibus facilis omnis laudantium  recusandae nobis</p>
+            <button type="submit">SEE PRICING</button>
+        </div>
+        <div class="form">
+            <h1>Sign Up For Free</h1>
+                <input type="text" placeholder="Full-Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Email">
+                <!-- <select name="" id="">
+                    <option value="">TYPE</option>
+                    <option value="">select 1</option>
+                    <option value="">select 2</option>
+                </select> -->
+                <!-- <input type="text" placeholder="asd"> -->
+                <select>
+                    <option style="display: none;">TYPE</option>
+                    <option value="">form 1</option>
+                    <option value="">form 2</option>
+                </select>
+                <button type="submit">Register</button>
+        </div>
+    </main>
+    
+</body>
+</html>
