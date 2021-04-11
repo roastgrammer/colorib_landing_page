@@ -1,0 +1,24 @@
+nav {
+    padding:1rem 1rem !important;
+    transition: .3s;
+}
+.description h1 {
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.description p {
+    font-size: 12px !important;
+}
+.description button {
+    width: 10rem !important;
+    font-size: 10px !important;
+}
+.form {
+    width: 80% !important;
+}
+.form h1 {
+    font-size: 20px !important;
+}
+.form button {
+    width: 50% !important;
+}

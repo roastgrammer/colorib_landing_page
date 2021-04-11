@@ -1,0 +1,46 @@
+nav {
+    transition: .3s;
+}
+.nav-item{
+    display: none;
+}
+.brand {
+    opacity:0;
+    animation:brand-animation 1s forwards ease;
+}
+@keyframes brand-animation  {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.menu {
+    opacity:0;
+    animation : show-menu 1s forwards ease;
+}
+@keyframes show-menu {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.menu .menu-border{
+    visibility:visible;
+}
+/* main */
+.description p {
+    font-size: 15px !important;
+}
+.description button {
+    width: 15rem !important;
+}
+.form {
+    width: 65% !important;
+}
+.form h1 {
+    font-size: 25px !important;
+}
