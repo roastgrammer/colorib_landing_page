@@ -1,2 +1,1 @@
-See This Project :
-https://roastgrammer.github.io/colorib_landing_page/
+Demo : https://roastgrammer.github.io/simple_landing_page/
